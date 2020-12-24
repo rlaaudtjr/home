@@ -2701,8 +2701,8 @@ class mainCog(commands.Cog):
 
 			random.shuffle(racing_unit)
 
-			field_size = 60
-			tmp_race_tab = 35 - len(racing_member)
+			field_size = 24
+			tmp_race_tab = 12 - len(racing_member)
 			if len(racing_member) <= 1:
 				await ctx.send('레이스 인원이 2명보다 작습니다.')
 				return
